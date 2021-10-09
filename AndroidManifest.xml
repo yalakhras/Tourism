@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourism"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="2"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_flag"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".First_p" />
+        <activity android:name=".Jordan_glance" />
+        <activity android:name=".Places" />
+        <activity android:name=".Offices_amman" />
+        <activity android:name=".Airlines" />
+        <activity android:name=".Contact_us" />
+        <activity android:name=".Contact_us1" />
+        <activity android:name=".First_a" />
+        <activity android:name=".Jordan_glance_a" />
+        <activity android:name=".Places_a" />
+        <activity android:name=".Amman" />
+        <activity android:name=".Karak" />
+        <activity android:name=".Ajlun" />
+        <activity android:name=".Aqaba" />
+        <activity android:name=".DeadSea" />
+        <activity android:name=".Irbid" />
+        <activity android:name=".Jerash" />
+        <activity android:name=".Madaba" />
+        <activity android:name=".Maeen" />
+        <activity android:name=".Petra" />
+        <activity android:name=".Salt" />
+        <activity android:name=".Umm_aljimal" />
+        <activity android:name=".Ummqays" />
+        <activity android:name=".Wadi_Rum" />
+        <activity android:name=".Amman_a" />
+        <activity android:name=".Karak_a" />
+        <activity android:name=".Ajlun_a" />
+        <activity android:name=".Aqaba_a" />
+        <activity android:name=".DeadSea_a" />
+        <activity android:name=".Irbid_a" />
+        <activity android:name=".Jerash_a" />
+        <activity android:name=".Madaba_a" />
+        <activity android:name=".Maeen_a" />
+        <activity android:name=".Petra_a" />
+        <activity android:name=".Salt_a" />
+        <activity android:name=".Umm_aljimal_a" />
+        <activity android:name=".Ummqays_a" />
+        <activity android:name=".Wadi_Rum_a" />
+        <activity android:name=".Hotels" />
+        <activity android:name=".Hotels_amman5" />
+        <activity android:name=".Hotels_amman4" />
+        <activity android:name=".Hotels_amman3" />
+        <activity android:name=".Hotels_aqaba5" />
+        <activity android:name=".Hotels_aqaba4" />
+        <activity android:name=".Hotels_aqaba3" />
+        <activity android:name=".Hotels_deadsea5" />
+        <activity android:name=".Hotels_deadsea4" />
+        <activity android:name=".Hotels_petra5" />
+        <activity android:name=".Hotels_petra3" />
+    </application>
+
+</manifest>
